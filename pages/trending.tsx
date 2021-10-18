@@ -30,7 +30,7 @@ export default function Movies ({ filmes }: FilmeProps){
 				<h1 className={styles.title}>
 					Filmes em destaque
 				</h1>
-				<Link href={"/busca"}>Ir para pagina de busca</Link>
+				<Link href={"/search"}>Ir para pagina de busca</Link>
 
 
 				<ul>

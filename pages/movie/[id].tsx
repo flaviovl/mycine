@@ -27,7 +27,7 @@ export default function MovieItem ({filme}: FilmeProps){
 				<h1 className={styles.title}>
 					Filmes: 
 				</h1>
-				<Link href={"/busca"}>Ir para pagina de busca</Link>
+				<Link href={"/search"}>Ir para pagina de busca</Link>
                 <h1>Title: {filme.title}</h1>
 				<p>Nota: {filme.vote_average}</p>
 				<p>{filme.overview}</p>
